@@ -1,0 +1,185 @@
+{
+    "Welcomepage": {
+        "Image":"/images/welcomepage1.webp",
+        "Video":"./images/welcomepage1.mp4",
+        "SubTitle":"",
+        "Title0":"Effektivisera ditt lantbruk med den senaste tekniken för foderanalys",                
+        "Button": "Skriv till oss!"
+     
+    },
+    "Navbar":{
+        "Navigation":[            
+            {
+                "title":"FAQ",
+                "link":"faq",
+                "type":"standard"
+            },
+            {
+                "title":"Produkt",
+                "link":"product",
+                "type":"standard"
+            },
+            {
+                "title":"Pris",
+                "link":"price",
+                "type":"standard"
+            },
+            {
+                "title":"Lär dig mer",
+                "link":"learnmore",
+                "type":"standard"
+            },
+            {
+                "title":"Kontakta oss",
+                "link":"footer",
+                "type":"filled"
+            }
+        ]
+    },
+    "ThreeInfo":{
+        "boxInfo":[
+            {
+                "title":"Analys av foder",
+                "subtitle":"Samla ihop 300 g foder du vill analysera. Stoppa in det i Instrumentets analyscenter. Välj analys från redan etablerad fodertyp eller be instrument detektera fodertyp. Efter 20 minuter har fodret analyserats och ett analyssvar har skickats till din profil."
+            },
+            
+            {
+                "title":"Enklare vardag",
+                "subtitle":"Med smart instrument på din egna gård kan du utföra hur många analyser du vill utan extra steg."
+            },
+            {
+                "title":"Skapa optimala foderrecept",
+                "subtitle":"Låt vår smarta foderstatmjukvara [Coolt namn] hjälpa dig tolka analyssvaren och ge dig perfekta rekommendationer på mängd och eventuell mix av foder."
+            }
+        ]
+    },
+    "SimplePage1":{
+        "title":"Är du less på långa analystider och krångliga analyssvar? Vill du ha hjälp att tolka analysdata och få foderrecept som är anpassade till just din gård och dina behov?",
+        "info":"Med NjordFeeds systemlösning hjälper vi dig till en stressfri vardag, där du kan förlita dig snabba fodergivor. Med vårt högteknologiska analysinstrument [Coolt namn] direkt på gården kan du göra analyser när du vill och få svar inom 20 minuter. Tillsammans med vår smarta AI-foderstat hjälper vi dig anpassa foderrecepten efter din gård och dina förutsättningar. \n\n Vi förstår att foderanalys kan vara överväldigande. Låt oss plocka bort osäkerheten och ge dig enkla, logiska analyssvar i ett användarvänligt format redan idag",
+        "boxInfo":[
+            {
+                "title":"20 min analyssvar",
+                "subtitle":""
+            },
+            {
+                "title":"ANALYS AV FODER",
+                "subtitle":"Lorem ipsum"
+            },
+            {
+                "title":"ANALYS AV FODER",
+                "subtitle":"Lorem ipsum"
+            }
+        ]
+    },
+    "SimplePage2":{
+        "title":"Om Njordfeed",
+        "subtitle":"Välkommen till NjordFeed! Vi är ett team på fem drivna personer med stark ingenjörsbakgrund och en gemensam passion för innovation. Vår resa började när vi insåg att den nuvarande processen för foderanalys på lantbruk inte var så effektiv som den kunde vara. Med denna insikt som drivkraft gav vi oss ut på ett uppdrag att förändra dagens analyspraxis. Med fokus på att effektivisera processer och ett öga för detaljer är vi engagerade i att skapa lösningar som gör verklig skillnad. Tillsammans formar vi en framtid där analys av foder är mer intuitiv, smidig och i slutändan mer betydelsefull. \n\n The team:\n Martin Stockhaus, VD. Alexander Back, COO. Assar Sundholm, CTO. Alexander Branzell, back-end-developer. Jens Hulteberg, front-end-developer. Martin har tidigare erfarenheter att driva företag och känner till många av de fallgropar som är enkla att hamna i, och vet hur man undviker dem. Alexander och Assar har direkt erfarenhet av att jobba på labb med högteknologiska instrument och kan producera samt presentera data till kunder. Assar har jobbat med provtagning och känner till de metoder som används i kommersiella labb. Ytterligare kompetenser inom som möjliggör att NjordFeed AB kan genomföra projektet kommer från IT- och designutvecklarna Alexander och Jens. De kommer bygga ett innovativt och stabilt system för att hantera den data som kommer lagras i vår databas, såsom analysresultat och snabb uppladdning av foderrådgivning till kund. \n\n NjordFeeds vision:\n Den dagliga verksamheten på ett lantbruk med kor är komplex och intensiv, med många faktorer som påverkar lönsamhet och djurens hälsa. En viktig komponent i detta är foderanalys, som ligger till grund för många av de beslut som tas dagligen och över en hel säsong. Vi vill förenkla foderoptimeringen genom att underlätta vardagen med snabbare och skarpare analys som resulterar i tydliga rekommendationer. Med dagens teknik kan analyser ske på gård. Istället för att skicka iväg en väldigt liten mängd prov som ska representera en gigantisk källa foder, vill vi att lantbrukare ska kunna analysera sitt egna foder när de vill. Vårt instrument är likvärdigt med komplett foder- och mineral-analys från ex.vis Eurofins. Med data förankrad i ditt foder kan du lita på resultaten, istället för att erhålla gissningar och uppskattningar, som många andra billigare analyser förlitar sig på.",
+        "image":"images/team1.jpg"
+    },
+    "FadeHeader":{
+        "image1":"images/fadeheader1.jpg",
+        "image2":"images/fadeheader2.jpg",
+        "list":[
+            {
+                "st":"Ökad näringsprecision: ",
+                "t":"Bättre kontroll över foderblandningarnas näringsinnehåll säkerställer att djuren får exakt de näringsämnen de behöver, vilket kan förbättra mjölkproduktion, tillväxt och köttkvalitet."
+            },
+            {
+                "st":"Kostnadsbesparingar: ",
+                "t":"Med exakta analyser minskas risken för överutfodring av dyra kraftfoder och mineraler, vilket ger långsiktiga besparingar."
+            },
+            {
+                "st":"Effektivitet: ",
+                "t":"Effektivitet: Genom att integrera analysen direkt på gården tas dyrbara labbanalyser och väntetider bort, vilket effektiviserar foderhanteringen."
+            },
+            {
+                "st":"Bättre djurhälsa: ",
+                "t":"Precision i näringsinnehåll minskar risk för näringsrelaterade sjukdomar och förbättrar djurens välbefinnande."
+            },
+            {
+                "st":"Sömlös integration: ",
+                "t":"Genom att koppla ihop analysinstrumentet och mjukvaran underlättas den dagliga hanteringen av foderblandningar, vilket minskar lantbrukarens administrativa börda."
+            },
+            {
+                "st":"Kontroll över vallen: ",
+                "t":"Analysen gör det möjligt att övervaka vallens näringspotential, vilket stöder beslut om gödsling och växtvård på ett hållbart sätt."
+            }
+
+        ],
+        
+        "text2":"Vill du testa instrument och app? Har du fler frågor? Kontakta oss så kan vi ordna en demo hos dig eller online! (Formulär där man frågas om det gäller instrument, app, instrument och app eller bara andra funderingar) Behöver du hjälp med ditt instrument, app eller sätta upp din profil? (ännu ett formulär?)",
+        "button2":"Kontakta oss!",
+        "link2":"footer"
+    },
+    "PathPage":{
+        "image1":"images/path_page1.png",        
+        "text1":"text 1",
+        "text2":"text 2"
+    },
+    "Footer":{
+        "list":[
+            {
+                "title":"axel@njordfeed.se"
+            },
+            {
+                "title":"+07070123123"
+            },
+            {
+                "title":"kallegatan 6 Göteborg"
+            }
+        ],
+        "madeBy":"Made by Cloudarity"
+    },
+    "Product":{
+        "title0":"Varför ska du hyra eller köpa ett instrument av oss?",
+        "subtitle0":"Med instrument på gård",
+        "list0":[
+            "Slipper du skicka iväg prover för analys",
+            "Kan du göra hur många analyser du vill, ex.vis varje gång du tar nytt grovfoder ur din plansilo eller bal",
+            "Får du analyssvar på 20 minuter istället för 2 veckor",
+            "Jobbar du inte med gammal data",
+            "Kan du spara tusentals SEK per år genom optimala foderrecept, se artiklar XXXX"
+        ],
+        "info0":"Det är bevisat av bl.a SLU samt Cornell University i USA att göra analyser veckovis istället för på månadsbasis eller säsongsbasis besparar en gård med ~300 mjölkkor upp till 250 000 SEK per år. Med fler analyser får ett lantbruk bättre koll på sitt foder och kan enklare samt snabbare justera fodergivan för att undvika många fallgropar som är relaterade till fodergivor. Ex.vis kan mer frekventa analyser leda till minskade sjukdomar på gården, såsom kalvförlamning, genom bättre uppsyn på kalcium- och fosfor-ration.",
+        "subinfo0":"Instrument: NIR-sensor från Zeiss - X till Y nm range, 0.Z nm upplösning.",
+
+
+
+        "title1":"Varför ska du använda vår foderstat-app?",
+        "subtitle1":"Med appen får du:",
+        "list1":[
+            "Matchning av grovfoder och kraft/mineralfoder för optimala foderrecept",
+            "Fodergivor anpassade efter din gård",
+            "Hjälp med tolkning av analyssvar, även med analyssvar från andra labb",
+            "Bättre koll på fodret du använder",
+            "Slipper spendera tid på att göra fodergivor"            
+        ],
+        "info1":"Den smarta AIn tar reda på vad din gård behöver för att optimera produktionsvinst samt välmående djur. Appen presenterar även historisk data och visar användning av foder på gården. AIn kan även prediktera jordmåns hälsan efter ca 1 års användning." ,
+        "title2":"PRODUCT NAMN",
+        "info2":"Instrument [Coolt namn] med app [Coolt namn], eller Systemlösningen som vi kallar det, är byggd för att fungera tillsammans. Utan knussel pratar instrument och mjukvara trådlöst med varandra och du får optimerade fodergivor direkt till din profil.\n\n Förutom nämnda fördelar med instrument och app, så gör fortsatt användning av båda produkter livet enklare. Den smarta AIn lär sig hur din gård fungerar och optimerar användning av kraft/mineralfoder för att uppfylla dina önskemål och hjälper till att förbättra gården. AIn lär känna dina djur och kan rekommendera fodergivor för olika segment av din djurpopulation för att de ska må som bäst och därmed vara mest lönsamma. AIn kan efter ca ett år hjälpa till att göra smarta val vid gödsling för att optimera vallens hälsa och gårdens produktion.",
+        
+        "title3":"Hur gör man då?",
+        "info3":"Enkelt! Ta ut ett prov som du vill analysera, ca 300g. Lägg in det i instrumentets [Coolt namn] analyshål och tryck på Start! Om du vet vad du vill analysera, välj då detta typ av foder (i appen? på displayen?) och tryck på Analysera. Du behöver inte tänka på något mer. I bakgrunden skapas ett ID för ditt prov som lagras i din personliga databas. Kom ihåg, varje prov du analyserar hjälper till att skapa en ännu smartare fodergiva då AIn får mer data att arbeta med! \n\n 20 minuter senare är analysen klar och du får ett svar direkt till din profil; i telefon-app eller till dator via webbläsare."
+    },
+    "Faq":{
+        "title0":"Vanliga frågor",        
+        "list0":[
+            {
+                "q":"Kan jag använda appen även om jag analyserar mitt foder via andra organisationer/labb?",
+                "a":"Ja, med vår smarta foderstat-app scannar du enkelt av analyssvaren och får ut rekommendationer samt foderrecept för din gård."
+            }
+        ]
+    },
+    "Price":{
+        "title0":"",
+        "info0":"Vi erbjuder även analys på vårt egna labb. (Snygg tabell som visar pris för 1 analys, 2 analyser och typ 10 analyser)"
+    },    
+    "LearnMore":{
+        "title0":"Lär dig mer",        
+        "list0":[
+            {
+                "q":"3% av alla mjölkkor drabbas av kalvförlamning. Bättre koll på fodret, framförallt kalcium- och fosforhalten minimerar risken att kon drabbas och du slipper göra det värsta I en plansilo kan foderkvaliteten variera upp till 30% från toppskikt till bottenskikt, vilket kan innebära att du överestimerar andelen kraftfoder (dyrare för verksamheten) eller underestimerar andelen kraftfoder (sämre produktion och djuren mår sämre)."
+            }
+        ]
+    }
+}

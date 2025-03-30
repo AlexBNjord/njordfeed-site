@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Parameters:
+  Component:
+    Type: String
+    Default: ""
+  ParentDomainName:
+    Type: String
+    Default: ""
+
+Resources:
+
+  HostedZone:
+    Type: AWS::Route53::HostedZone
+    Properties:
+      Name: !Ref ParentDomainName
+      HostedZoneConfig: 
+        Comment: !Sub 'My hosted zone for ${ParentDomainName}'
+
+ 
+
+Outputs:
+  HostedZoneId:
+    Value: !Ref HostedZone
+    Export:
+      Name: !Sub "${Component}-HostedZoneId"

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+  margin: 0;
+/*   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,h2,h3,h4,h5,h6,p {
+  font-family: "Josefin Sans", sans-serif !important;
+  white-space: pre-line;
+  
+}
+html, body {overflow-x: hidden !important;width: 100vw !important;}
+.flex {
+  display: flex !important;
+}
+.flex-c {
+  display: flex !important;
+  flex-direction: column;
+}
+.flex__center-r {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.flex__center-c {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex__start-c {
+  display: flex !important;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 690px) {
+  .flex__r-c {
+      flex-direction: column;
+  }
+}
+
+
+
+
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+/* fade header */
+.fadeheader {
+  height: 400vh;
+  /* width: 100vw; */
+  background-color: var(--color-bg);
+  position: relative;
+  overflow: hidden;
+
+}
+
+.fadeheader__bgimg {
+  position: absolute;  
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+
+
+
+}
+.fadeheader__bgimg img{
+  filter: brightness(0.1);
+  top:0;left:0;right: 0;bottom: 0;
+  position: absolute;
+  object-fit: cover;
+  height: 100%; width: 100%;
+  z-index:  1;
+  transform: translate3d(0,0,0);  
+}
+
+
+
+.fadeheader__info {
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.fadeheader__info h3{
+  max-width: 80vw;
+  
+}
+.fadeheader__info h3 span{
+  color: var(--color-main);
+}
+
+
+
+
+@media screen and (max-width: 900px){
+  .fadeheader__info h3{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px){
+  .fadeheader__info h3{
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/* navbutton line hover */
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Styling for the text */
+.hover-text {
+  font-size: 24px;
+  position: relative;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+/* The underline effect */
+.hover-text::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #DDA06C; /* Change this to any color you like */
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+/* When hovering over the text, make the underline appear */
+.hover-text:hover::after {
+  width: 100%; /* The underline expands to full width */
+}
+
+

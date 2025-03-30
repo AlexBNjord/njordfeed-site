@@ -1,0 +1,173 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+
+  Component:
+    Type: String
+    Default: ""  
+  ParentDomainName:
+    Type: String
+    Default: ""
+  HostedZoneId:
+    Type: String
+    Default: ""
+  CloudFrontStaticZoneId:
+    Type: String
+    Default: "Z2FDTNDATAQYW2" #Strict value when using CloudFront Distribution  https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-aliastarget-1.html#cfn-route53-aliastarget-hostedzoneid
+  Version: 
+    Type: Number
+    Default: 1
+
+Resources:
+
+  # Buckets
+  FrontendBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub ${ParentDomainName}
+      VersioningConfiguration:
+        Status: Enabled
+      AccessControl: Private
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+    
+
+
+  # Bucket Policy For OriginAccessIdentity
+  FrontendBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref FrontendBucket
+      PolicyDocument:
+        Statement:
+          - Sid: "BucketPolicyGetOAI"
+            Effect: Allow
+            Action:
+              - s3:GetObject
+            Resource:
+              - !Sub ${FrontendBucket.Arn}/*
+            Principal:
+              CanonicalUser: !GetAtt OriginAccessIdentity.S3CanonicalUserId         
+               
+
+
+  # Origin Access Indentity
+  OriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: !Sub "${Component}-origin-access-identity"
+
+
+
+  # Certificate
+  Certificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      CertificateTransparencyLoggingPreference: ENABLED
+      ValidationMethod: DNS
+      DomainName: !Sub "${ParentDomainName}"
+      SubjectAlternativeNames:        
+        - !Sub "www.${ParentDomainName}"
+      DomainValidationOptions:
+        - HostedZoneId: !Ref HostedZoneId
+          DomainName: !Sub ${ParentDomainName}
+        - HostedZoneId: !Ref HostedZoneId
+          DomainName: !Sub "www.${ParentDomainName}"           
+    
+
+  # CloudFront Distribution
+  CloudFrontDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:       
+        CustomErrorResponses:
+          - ErrorCachingMinTTL: 0
+            ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCachingMinTTL: 0
+            ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+        Comment: !Sub ${ParentDomainName}
+        Origins:
+          - Id: !Sub "${Component}-s3-origin"
+            DomainName: !GetAtt FrontendBucket.DomainName
+            S3OriginConfig:
+              OriginAccessIdentity: !Sub "origin-access-identity/cloudfront/${OriginAccessIdentity}"
+        Enabled: true
+        HttpVersion: http3
+        DefaultRootObject: index.html
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          Compress: true
+          MinTTL: 0
+          MaxTTL: 86400
+          DefaultTTL: 86400
+          TargetOriginId: !Sub "${Component}-s3-origin"
+          ForwardedValues:
+            QueryString: false
+            Cookies:
+              Forward: none
+          ViewerProtocolPolicy: redirect-to-https
+        IPV6Enabled: true
+        PriceClass: PriceClass_100
+        Aliases:
+          - !Sub ${ParentDomainName}
+          - !Sub "www.${ParentDomainName}"
+        ViewerCertificate:
+          AcmCertificateArn: !Ref Certificate
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2021
+  
+
+
+  # RecordSet
+  RecordSet:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZoneId
+      Name: !Sub ${ParentDomainName}
+      Type: A
+      AliasTarget:
+        HostedZoneId: !Ref CloudFrontStaticZoneId
+        EvaluateTargetHealth: false
+        DNSName: !GetAtt CloudFrontDistribution.DomainName
+  
+
+
+
+
+
+            
+
+Outputs: 
+  FrontendBucketArn:
+    Value: !GetAtt FrontendBucket.Arn
+    Export:
+      Name: !Sub "${Component}-FrontendBucketArn"
+
+  FrontendVersion:
+    Value: !Ref Version
+    Export:
+      Name: !Sub "${Component}-FrontendVersion"
+
+  OriginAccessIdentityS3CanonicalUserId:
+    Value: !GetAtt OriginAccessIdentity.S3CanonicalUserId 
+    Export:
+      Name: !Sub "${Component}-OriginAccessIdentity"
+
+  CloudFrontDistributionId:
+    Value: !Ref CloudFrontDistribution
+    Export:
+      Name: !Sub "${Component}-CloudFrontDistributionId"
