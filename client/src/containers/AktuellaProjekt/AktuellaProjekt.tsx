@@ -34,6 +34,7 @@ const AktuellaProjekt = ({ info }: Iprops) => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        mx: 'auto',
         gap: '3rem',
         pt: '6rem',
       }}

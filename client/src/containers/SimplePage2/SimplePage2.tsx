@@ -22,7 +22,7 @@ const SimplePage2 = (props:Iprops) => {
             
 
         
-            <Box  maxWidth="xl" width={"80%"}  sx={{justifyContent:'space-around',m:mobile ? '1rem':"5rem"}} className="flex flex__r-c" >
+            <Box  maxWidth="xl" width={"80%"}  sx={{justifyContent:'space-around', m:mobile ? '1rem':"5rem"}} className="flex flex__r-c" >
 
                 <Box className="flex__center-c" justifyContent={'flex-start'} maxWidth={mobile ? '100%':'48%'}>
                     <Typography variant='h2' color='primary.contrastText' sx={{textAlign:'left'}}>

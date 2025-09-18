@@ -70,7 +70,7 @@ const Samarbete = ({ info }: Iprops) => {
         maxWidth="xl"
         width="80%"
         minHeight={mobile ? '30vh' : '50vh'}
-        sx={{ display: 'flex', flexDirection: 'column', gap: { xs: 3, md: 5 }, mt: '5rem' }}
+        sx={{ display: 'flex', flexDirection: 'column', gap: { xs: 3, md: 5 },  mx: 'auto', mt: '5rem' }}
       >
         {/* Titel */}
         <Typography variant="h2" sx={{ textAlign: 'center', color: 'text.primary' }}>

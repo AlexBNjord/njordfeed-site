@@ -56,6 +56,7 @@ const AboutUs = ({ info }: Iprops) => {
       <Box
         sx={{
           width: 'min(100%, 980px)',
+          mx: 'auto',
           bgcolor: 'background.paper',
           color: 'text.primary',
           border: `1px solid ${alpha(theme.palette.primary.main, 0.12)}`,

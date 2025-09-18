@@ -26,6 +26,7 @@ const Faq = ({ info }: Iprops) => {
         position: 'relative',
         minHeight: '60vh',
         width: '100%',
+        mx: 'auto',
         py: { xs: 6, md: 10 },
         px: 2,
         // Vit -> grön "primary.light" gradient

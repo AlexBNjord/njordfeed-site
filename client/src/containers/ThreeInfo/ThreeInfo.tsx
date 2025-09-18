@@ -57,7 +57,7 @@ const ThreeInfo = ({ info }: Iprops) => {
         justifyContent: 'center',
       }}
     >
-      <Box maxWidth="xl" width="80%" sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+      <Box maxWidth="xl" width="80%" sx={{ display: 'flex', flexDirection: 'column', mx: 'auto', gap: 3 }}>
         <Typography variant="h1" sx={{ textAlign: 'center', mb: 1, color: 'text.primary' }}>
           {info?.ThreeInfo?.title}
         </Typography>

@@ -117,7 +117,7 @@ const Price = ({ info }: Iprops) => {
       }}
     >
       {/* Planer */}
-      <Box sx={{ width: 'min(100%, 1200px)' }}>
+      <Box sx={{ width: 'min(100%, 1200px)', mx: 'auto' }}>
         <Grid container spacing={3} sx={{ alignItems: 'stretch', justifyContent: 'center' }}>
           {tiers.map((tier) => (
             <Grid

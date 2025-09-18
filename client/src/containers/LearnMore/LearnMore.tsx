@@ -50,6 +50,7 @@ const LearnMore = ({ info }: Iprops) => {
           display: 'flex',
           flexDirection: 'column',
           gap: mobile ? 2.5 : 3.5,
+          mx: 'auto',
           mt: '5rem',
         }}
       >

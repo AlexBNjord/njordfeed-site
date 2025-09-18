@@ -15,6 +15,7 @@ import ScrollToTop from './hooks/ScrollToTop'
 import Samarbete from './containers/Samarbete/Samarbete'
 import AboutUs from './containers/AboutUs/AboutUs'
 import AktuellaProjekt from './containers/AktuellaProjekt/AktuellaProjekt';
+import CssBaseline from '@mui/material/CssBaseline';
 
 
 
@@ -296,6 +297,7 @@ const App = () => {
     return (
         <Router >
             <ThemeProvider theme={defaultTheme}>
+                    <CssBaseline />
                     <Navbar info={info}  />
                     <ScrollToTop />
                     <Routes >                            

@@ -56,7 +56,7 @@ const SimplePage1 = ({ info }: Iprops) => {
         justifyContent: 'center',
       }}
     >
-      <Box maxWidth="xl" width="80%" sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+      <Box maxWidth="xl" width="80%" sx={{ display: 'flex', flexDirection: 'column', mx: 'auto', gap: 3 }}>
         {/* Rubrik */}
         <Typography variant="h1" sx={{ color: 'text.primary', textAlign: 'center', mb: '1rem' }}>
           {info?.SimplePage1?.title}

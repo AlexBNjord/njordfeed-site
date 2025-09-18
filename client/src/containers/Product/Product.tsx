@@ -64,6 +64,7 @@ const Product = ({ info }: Iprops) => {
           flexDirection: 'column',
           gap: mobile ? 3 : 4, // avstånd mellan korten
           mt: '5rem',
+          mx: 'auto',
         }}
       >
         {/* Card 1 */}
