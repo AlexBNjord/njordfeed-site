@@ -23,7 +23,7 @@ html, body, #root { height: 100%; }
 html, body { overflow-x: hidden; margin: 0; } /* ta bort width:100vw */
 *, *::before, *::after { box-sizing: border-box; }
 /* Stabilisera layout när scrollbar dyker upp (modernt stöd) */
-html { scrollbar-gutter: stable both-edges; }
+html { scrollbar-gutter: stable; }
 
 .flex-c {
   display: flex !important;
@@ -58,13 +58,15 @@ html { scrollbar-gutter: stable both-edges; }
 
 
 
-
+/* Se till att välkomstvideon alltid ligger bakom allt annat */
 video {
-  position: fixed;
-  inset: 0;          /* top/right/bottom/left: 0 */
-  width: 100%;       /* inte 100vw */
-  height: 100%;
   object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;           /* <-- lägg till */
 }
 
 
@@ -74,19 +76,23 @@ video {
 
 /* fade header */
 .fadeheader {
-  height: 400vh;
+  height: 220vh;
   /* width: 100vw; */
   background-color: var(--color-bg);
   position: relative;
   overflow: hidden;
+  z-index: 0; /*nytt */
 
 }
 
 .fadeheader__bgimg {
   position: absolute;  
   top: 0;
-  width: 100vw;
-  height: 100vh;
+  left: 0;                    /* <-- lägg till */
+  right: 0;                   /* <-- lägg till */
+  width: 100%;                /* <-- ändra från 100vw */
+  height: 100vh;              /* baseline för äldre webview */
+  background-color: #fff;     /* hindrar att videon lyser igenom vid pin-spacing */
 
 
 
@@ -115,7 +121,6 @@ video {
 .fadeheader__info h3 span{
   color: var(--color-main);
 }
-
 
 
 

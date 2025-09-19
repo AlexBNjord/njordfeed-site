@@ -20,8 +20,8 @@ const Footer = ({ info }: Iprops) => {
   /** ================= SIZE CONTROL =================
    * Ändra dessa värden för att styra storleken i footern:
    */
-  const BRAND_HEIGHT = { xs: 24, md: 28 }            // loggans höjd
-  const CONTACT_FONT = { xs: '0.95rem', md: '1rem' } // kontakt-text
+  const BRAND_HEIGHT = { xs: 48, md: 56 }            // loggans höjd
+  const CONTACT_FONT = { xs: '0.95rem', md: '1.2rem' } // kontakt-text
   const SOCIAL_SIZE = { xs: 24, md: 28 }             // sociala ikonernas storlek
   /** ================================================ */
 
@@ -29,14 +29,14 @@ const Footer = ({ info }: Iprops) => {
   const iconForIndex = (i: number) => {
     const base = { fontSize: CONTACT_FONT, mr: 1, color: 'primary.contrastText' as const }
     if (i === 1) return <EmailIcon sx={base} />
-    if (i === 2) return <LocalPhoneIcon sx={base} />
+  //  if (i === 2) return <LocalPhoneIcon sx={base} />
     return null
   }
 
   // Hjälper till att göra mejlen klickbar om strängen innehåller "@"
   const renderContactItem = (title: string, i: number) => {
     const isEmail = title?.includes('@')
-    const isTel = /^\+?[0-9()\s-]{6,}$/.test(title || '')
+  //  const isTel = /^\+?[0-9()\s-]{6,}$/.test(title || '')
     const content = (
       <Typography
         variant="body1"
@@ -47,7 +47,7 @@ const Footer = ({ info }: Iprops) => {
       </Typography>
     )
     if (isEmail) return <a href={`mailto:${title}`} style={{ textDecoration: 'none' }}>{content}</a>
-    if (isTel) return <a href={`tel:${title.replace(/\s/g, '')}`} style={{ textDecoration: 'none' }}>{content}</a>
+  //  if (isTel) return <a href={`tel:${title.replace(/\s/g, '')}`} style={{ textDecoration: 'none' }}>{content}</a>
     return content
   }
 
@@ -88,11 +88,13 @@ const Footer = ({ info }: Iprops) => {
             <Box sx={{ height: BRAND_HEIGHT, '& svg': { height: '100%', width: 'auto' } }}>
               <TextLogo fill="#ffffff" />
             </Box>
+            
+            
             <Typography
               variant="subtitle1"
               sx={{ color: 'primary.contrastText', fontSize: { xs: '1rem', md: '1.05rem' }, fontWeight: 600 }}
             >
-              NjordFeed AB
+            {/* In med vårt namn här om vi vill/ändrar logga i framtiden */}
             </Typography>
           </Box>
 
@@ -111,11 +113,7 @@ const Footer = ({ info }: Iprops) => {
               </Box>
             ))}
           </Box>
-        </Box>
-
-        <Divider sx={{ borderColor: 'primary.contrastText', opacity: 0.25 }} />
-
-        {/* Social + copyright */}
+{/* Social + copyright */}
         <Box
           className="flex__center-r"
           sx={{ justifyContent: 'space-between', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}
@@ -124,10 +122,10 @@ const Footer = ({ info }: Iprops) => {
             {/* [STYR SOCIALA IKONERS STORLEK HÄR] */}
             <IconButton
               aria-label="LinkedIn"
-              href="https://www.linkedin.com/company/njordfeed"
+              href="https://www.linkedin.com/company/njordfeed-ab"
               target="_blank"
               rel="noopener noreferrer"
-              sx={{ color: 'primary.contrastText' }}
+              sx={{ color: 'primary.contrastText', alignItems: 'center'}}
             >
               <LinkedInIcon sx={{ fontSize: SOCIAL_SIZE }} />
             </IconButton>
@@ -135,15 +133,15 @@ const Footer = ({ info }: Iprops) => {
             {/* <IconButton sx={{ color: 'primary.contrastText' }}><FacebookIcon sx={{ fontSize: SOCIAL_SIZE }} /></IconButton> */}
           </Box>
 
-          {info?.Footer?.madeBy && (
-            <Typography
-              variant="caption"
-              sx={{ color: 'primary.contrastText', opacity: 0.9, textAlign: 'right' }}
-            >
-              {info.Footer.madeBy}
-            </Typography>
-          )}
+          
         </Box>
+
+
+        </Box>
+
+        <Divider sx={{ borderColor: 'primary.contrastText', opacity: 0.25 }} />
+
+        
       </Box>
     </Box>
   )
