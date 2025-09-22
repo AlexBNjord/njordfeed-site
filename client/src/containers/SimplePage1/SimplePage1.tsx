@@ -46,9 +46,9 @@ const SimplePage1 = ({ info }: Iprops) => {
       component="section"
       sx={{
         position: 'relative',
-        minHeight: '80vh',
+        minHeight: '60vh',
         width: '100%',
-        pt: { xs: 2, md: '1px' },   
+        pt: { xs: 2, md: '80px' },   
         pb: { xs: 0.5, md: '2px' },   
         px: 2,
         backgroundColor: starterGreenSolid, // ingen gradient
@@ -56,7 +56,7 @@ const SimplePage1 = ({ info }: Iprops) => {
         justifyContent: 'center',
       }}
     >
-      <Box maxWidth="xl" width="80%" sx={{ display: 'flex', flexDirection: 'column', mx: 'auto', gap: 3 }}>
+      <Box maxWidth="xl" width="80%" sx={{ display: 'flex', flexDirection: 'column', mx: 'auto', gap: 2 }}>
         {/* Rubrik */}
         <Typography variant="h1" sx={{ color: 'text.primary', textAlign: 'center', mb: '1rem' }}>
           {info?.SimplePage1?.title}
@@ -101,25 +101,7 @@ const SimplePage1 = ({ info }: Iprops) => {
           ))}
         </Box>
 
-        {/* Illustrationsbild under korten (valfri) */}
-        {info?.SimplePage1?.image && (
-          <Box
-            component="img"
-            src={info.SimplePage1.image}
-            alt=""
-            sx={{
-              width: '100%',
-              maxWidth: '900px',
-              mt: 4,
-              borderRadius: '8px',
-              boxShadow: 3,
-              alignSelf: 'center',
-              objectFit: 'cover',
-            }}
-          />
-        )}
-
-        {/* Avgränsare med logga – centrerad, längre streck */}
+                {/* Avgränsare med logga – centrerad, längre streck */}
         <Box
           sx={{
             width: 'min(100%, 900px)',

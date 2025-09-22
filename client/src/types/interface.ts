@@ -37,8 +37,8 @@ interface Iinfo  {
         boxInfo: {
             title:string
             subtitle:string
-        }[],
-        image:string
+        }[]
+        
 
     },"SimplePage2":{
         [key:string]:string        

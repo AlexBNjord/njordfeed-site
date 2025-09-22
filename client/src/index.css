@@ -86,17 +86,20 @@ video {
 }
 
 .fadeheader__bgimg {
-  position: absolute;  
+  position: absolute;
+  inset: 0;  
   top: 0;
   left: 0;                    /* <-- lägg till */
   right: 0;                   /* <-- lägg till */
   width: 100%;                /* <-- ändra från 100vw */
   height: 100vh;              /* baseline för äldre webview */
   background-color: #fff;     /* hindrar att videon lyser igenom vid pin-spacing */
-
-
-
+  z-index: 0;
 }
+
+
+
+
 .fadeheader__bgimg img{
   filter: brightness(0.1);
   top:0;left:0;right: 0;bottom: 0;
@@ -106,13 +109,17 @@ video {
   z-index:  1;
   transform: translate3d(0,0,0);  
 }
-
+@supports (height: 100svh) {
+  .fadeheader__bgimg { height: 100svh; }
+  .fadeheader__bgimg img { height: 100svh; }
+}
 
 
 .fadeheader__info {
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
+  z-index: 2;
 }
 .fadeheader__info h3{
   max-width: 80vw;

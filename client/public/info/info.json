@@ -86,8 +86,8 @@
                 "title":"Agera",
                 "subtitle":"Tack vare den korta analystiden kan du agera direkt på variationer i foderkvaliteten. Jämför sedan enkelt provet med sparade analyser för att upptäcka variationer mellan fodergivor så väl som skördar."
             }
-        ],
-        "image": ""
+        ]
+        
     },
     "SimplePage2":{
         "title":"Om NjordFeed",
@@ -97,7 +97,7 @@
     "FadeHeader":{
         "image1":"images/fadeheader1.jpg",
         "image2":"images/fadeheader2.jpg",
-        "title0":"Vilka är de enorma fördelarna?",
+        "title0":"Vilka är fördelarna?",
         "list":[
             {
                 "st":"Ökad näringsprecision: ",
@@ -238,6 +238,16 @@
                 
             },
             {"q":"I en plansilo kan foderkvaliteten variera upp till 30% från toppskikt till bottenskikt, vilket kan innebära att du överestimerar andelen kraftfoder (dyrare för verksamheten) eller underestimerar andelen kraftfoder (sämre produktion och djuren mår sämre)." 
+        },
+        {"q":"En ko äter i genomsnitt 50 kilo foder per dag – små skillnader i näringsinnehåll kan därför få stor effekt på både hälsa och produktion." 
+        },
+        {"q":"Proteinöverskott i fodret går inte till mjölk – det kostar bara pengar och belastar miljön via ökad kväveutsöndring." 
+        },
+        {"q":"Fodrets socker- och stärkelsehalt påverkar idissling, pH i våmmen och därmed hela kons maghälsa." 
+        },
+        {"q":"En enda dåligt packad plansilo kan ge upphov till mögel som sänker foderintaget och mjölkproduktionen – även små partier påverkar." 
+        },
+        {"q":"Med regelbundna gårdsanalyser kan du upptäcka förändringar direkt, istället för att riskera produktionsfall som syns först veckor senare." 
         }
         ]
     },

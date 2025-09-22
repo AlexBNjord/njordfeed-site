@@ -47,9 +47,9 @@ const ThreeInfo = ({ info }: Iprops) => {
       component="section"
       sx={{
         position: 'relative',
-        minHeight: '80vh',
+        minHeight: '60vh',
         width: '100%',
-        pt: { xs: '40px', md: '80px' },   
+        pt: { xs: '40px', md: '180px' },   
         pb: { xs: 0.5, md: '2px' },   
         px: 2,
         backgroundColor: starterGreenSolid,   // ✅ solid, ingen transparens

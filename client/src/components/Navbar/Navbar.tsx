@@ -179,64 +179,87 @@ const Navbar = (props: Iprops) => {
   }
 
   if (mobile) {
-    return (
+  return (
+    <Box
+      component="nav"
+      sx={{
+        ...style.nav,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flexWrap: 'nowrap',       // ⟵ viktiga: ingen wrap
+      }}
+    >
+      {/* LOGO/VARUMÄRKE */}
       <Box
-        component="nav"
-        sx={style.nav}
-        className="flex"
-        justifyContent="space-between"
-        alignItems="center"
+        sx={{
+          ml: '1rem',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          flex: '1 1 auto',       // ⟵ får växa krympa
+          minWidth: 0,            // ⟵ tillåt textklipp
+          overflow: 'hidden',     // ⟵ klipp om för stort
+        }}
       >
-        <Box sx={{ ml: '1rem', height: '100%', width: '50%' }}>
+        {/* Begränsa maxbredd så den inte pressar ut menyknappen */}
+        <Box sx={{ maxWidth: '70vw', whiteSpace: 'nowrap' }}>
           <TextLogo fill={theme.palette.primary.main} navigateOn={true} />
         </Box>
-
-        <Button
-          color="inherit"
-          onClick={() => toggleDrawer(true)}
-          sx={{ ...(openDrawer && { display: 'none' }), mr: '1rem' }}
-        >
-          <MenuIcon />
-        </Button>
-
-        <Drawer
-          anchor={`right`}
-          open={openDrawer}
-          onClose={() => toggleDrawer(false)}
-          sx={{ '.MuiPaper-root': { minWidth: '50%' } }}
-        >
-          <Box className="flex__center-r" sx={{ justifyContent: 'space-around', width: '100%' }}>
-            <Box width={'33%'}></Box>
-
-            <Typography variant="h3" color="primary" width={'33%'}>
-              <Logo height={6} width={6} fill={theme.palette.primary.main} navigateOn={true} />
-            </Typography>
-
-            <IconButton sx={{ width: '33%' }} onClick={() => toggleDrawer(false)}>
-              <ClearIcon />
-            </IconButton>
-          </Box>
-
-          <Box>
-            {(info?.Navbar?.Navigation || [])?.map((item, i) => (
-              <ListItem
-                key={`navbarlistitem${item?.title}${i}`}
-                disablePadding
-                sx={{
-                  '& :hover': { color: 'secondary.main' },
-                  borderRight: `5px solid ${theme.palette.primary.main}`,
-                }}
-              >
-                <ListItemButton onClick={() => MobileNavigate(item?.link, item?.type)}>
-                  <ListItemText primary={item?.title} />
-                </ListItemButton>
-              </ListItem>
-            ))}
-          </Box>
-        </Drawer>
       </Box>
-    )
-  } else {
+
+      {/* MENYKNAPP */}
+      <Button
+        color="inherit"
+        onClick={() => toggleDrawer(true)}
+        sx={{
+          ...(openDrawer && { display: 'none' }),
+          mr: '1rem',
+          flexShrink: 0,          // ⟵ krymper inte (stannar på samma rad)
+          alignSelf: 'center',
+        }}
+      >
+        <MenuIcon />
+      </Button>
+
+      {/* DRAWER */}
+      <Drawer
+        anchor="right"
+        open={openDrawer}
+        onClose={() => toggleDrawer(false)}
+        sx={{ '.MuiPaper-root': { minWidth: '50%' } }}
+      >
+        <Box className="flex__center-r" sx={{ justifyContent: 'space-around', width: '100%' }}>
+          <Box width="33%" />
+          <Typography variant="h3" color="primary" width="33%">
+            <Logo height={6} width={6} fill={theme.palette.primary.main} navigateOn={true} />
+          </Typography>
+          <IconButton sx={{ width: '33%' }} onClick={() => toggleDrawer(false)}>
+            <ClearIcon />
+          </IconButton>
+        </Box>
+
+        <Box>
+          {(info?.Navbar?.Navigation || [])?.map((item, i) => (
+            <ListItem
+              key={`navbarlistitem${item?.title}${i}`}
+              disablePadding
+              sx={{
+                '& :hover': { color: 'secondary.main' },
+                borderRight: `5px solid ${theme.palette.primary.main}`,
+              }}
+            >
+              <ListItemButton onClick={() => MobileNavigate(item?.link, item?.type)}>
+                <ListItemText primary={item?.title} />
+              </ListItemButton>
+            </ListItem>
+          ))}
+        </Box>
+      </Drawer>
+    </Box>
+  )
+}
+ else {
     return (
       <Box component="nav" className="flex__center-r" sx={{ width: '100%', height: '5rem', zIndex: 3, position: 'fixed' }}>
         <Box
