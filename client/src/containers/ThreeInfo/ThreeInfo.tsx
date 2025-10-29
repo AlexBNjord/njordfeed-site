@@ -49,7 +49,7 @@ const ThreeInfo = ({ info }: Iprops) => {
         position: 'relative',
         minHeight: '60vh',
         width: '100%',
-        pt: { xs: '40px', md: '180px' },   
+        pt: { xs: '40px', md: '100px' },   
         pb: { xs: 0.5, md: '2px' },   
         px: 2,
         backgroundColor: starterGreenSolid,   // ✅ solid, ingen transparens

@@ -117,6 +117,7 @@ const Price = ({ info }: Iprops) => {
       }}
     >
       {/* Planer */}
+      {false && (
       <Box sx={{ width: 'min(100%, 1200px)', mx: 'auto' }}>
         <Grid container spacing={3} sx={{ alignItems: 'stretch', justifyContent: 'center' }}>
           {tiers.map((tier) => (
@@ -262,6 +263,7 @@ const Price = ({ info }: Iprops) => {
           ))}
         </Grid>
       </Box>
+      )}
 
       {/* --- Använd appen utan eget instrument --- */}
       {!!info?.Price?.advisorAccess && (

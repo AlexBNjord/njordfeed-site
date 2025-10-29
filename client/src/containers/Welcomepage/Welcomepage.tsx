@@ -40,7 +40,7 @@ const Welcomepage = (props:Iprops) => {
     const mobile = useMediaQuery('(max-width:690px)');       
 
     return (
-        <Box id="welcomepage" component="section" className="flex__center-c" sx={{position:'relative',height:"80vh",width:"100%", pb: '80px', mx: 'auto',flexWrap:"wrap"}}>
+        <Box id="welcomepage" component="section" className="flex__center-c" sx={{position:'relative',height:"100vh",width:"100%", pb: '80px', mx: 'auto',flexWrap:"wrap"}}>
             
             {/* <img src={info?.Welcomepage?.Image} style={imageStyle.img} alt='' onLoad={()=>HandleLoadingImages(1, image_ref, setLoading)}/> */}
             <video autoPlay muted loop id="video" onLoad={()=>HandleLoadingImages(1, image_ref, setLoading)} style={{filter:"brightness(40%)",zIndex:-1}}>
