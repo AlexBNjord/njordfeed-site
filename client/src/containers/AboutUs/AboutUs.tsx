@@ -88,7 +88,7 @@ const AboutUs = ({ info }: Iprops) => {
         {members.length > 0 && (
           <Box sx={{ mt: 4 }}>
             <Typography variant="h3" sx={{ textAlign: 'center', mb: 3 }}>
-              Teamet bakom NjordFeed
+              
             </Typography>
 
             <Grid container spacing={3} justifyContent="center">

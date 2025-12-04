@@ -1,0 +1,359 @@
+{
+    "Welcomepage": {
+        "Image":"/images/welcomepage1.webp",
+        "Video":"./images/welcomepage1.mp4",
+        "SubTitle":"",
+        "Title0":"Optimize your farm with the latest feed analysis technology",                
+        "Button": "Contact us!"
+     
+    },
+    "Navbar":{
+        "Navigation":[            
+            {
+                "title":"FAQ",
+                "link":"faq",
+                "type":"standard"
+            },
+            {
+                "title":"Product",
+                "link":"product",
+                "type":"standard"
+            },
+            {
+                "title":"Price",
+                "link":"price",
+                "type":"standard"
+            },
+            {
+                "title":"Current projects",
+                "link":"aktuella-projekt",
+                "type":"standard"
+            },
+            {
+                "title":"Learn more",
+                "link":"learnmore",
+                "type":"standard"
+            },
+            {
+                "title":"Our collaborators",
+                "link":"samarbete",
+                "type":"standard"
+            },
+             {
+                "title":"About us",
+                "link":"about",
+                "type":"standard"
+            },
+            {
+                "title":"Contact us",
+                "link":"footer",
+                "type":"filled"
+            }
+            
+        ]
+    },
+    "ThreeInfo":{
+        "title": "What we offer",
+        "boxInfo":[
+            {
+                "title":"Unique feed analysis",
+                "subtitle":"An instrument that detects and quantifies both major nutrients and trace minerals for a complete analysis."
+            },
+            
+            {
+                "title":"Making everyday work easier",
+                "subtitle":"With a smart on-farm instrument, you can run daily analyses effortlessly—no extra steps required."
+            },
+            {
+                "title":"Insights that build over time",
+                "subtitle":"All your analyses are automatically stored in the cloud. Track changes in feed quality throughout the year and compare harvests and batches to make better decisions."
+            }
+        ]
+    },
+    "SimplePage1":{
+        "title":"How does it work?",
+        "info":"Med NjordFeeds systemlösning hjälper vi dig till en stressfri vardag, där du kan förlita dig snabba fodergivor. Med vårt högteknologiska analysinstrument direkt på gården, kan du göra analyser när du vill och få svar inom 20 minuter. Tillsammans med vår smarta AI-foderstat hjälper vi dig anpassa foderrecepten efter din gård och dina förutsättningar. \n\n Vi förstår att foderanalys kan vara överväldigande. Låt oss plocka bort osäkerheten och ge dig enkla, logiska analyssvar i ett användarvänligt format redan idag.",
+        "boxInfo":[
+            {
+                "title":"Instrument",
+                "subtitle":"The instrument analyzes your feed in about 20 minutes and produces a complete nutrient and mineral profile."
+            },
+            {
+                "title":"Database in the cloud",
+                "subtitle":"The analysis results are automatically sent to our database, where the nutrient profile is processed. The data is then presented clearly in your profile, either in our app or through your web browser."
+            },
+            {
+                "title":"Act on Changes",
+                "subtitle":"Thanks to the short analysis time, you can act immediately on variations in feed quality. You can then easily compare the sample with your stored analyses to identify differences between feed batches as well as entire harvests."
+            }
+        ]
+        
+    },
+    "SimplePage2":{
+        "title":"About NjordFeed",
+        "subtitle":"We are a team of engineers, entrepreneurs, and innovators dedicated to modernizing agriculture.\n\nWith roots at Chalmers University of Technology and strong expertise in biotechnology, engineering, AI, and UX design, we have come together to create solutions that truly make a difference. NjordFeed is built on the insight that feed analysis is key to sustainable profitability and animal health — but today’s methods are too slow and too inaccessible.\n\nNjordFeed is currently leading a three-year EIP-Agri innovation project aimed at transforming how Swedish farmers analyze and optimize their feed. Together with advisors and test farms, we are developing a portable analysis instrument that makes it possible to quickly and easily measure nutrient and mineral content in forage — directly on the farm, without sending samples to a laboratory. Through real-time data and a cloud-based analysis platform, farmers gain better control over feed variation, can adjust rations more frequently, and avoid unnecessary costs for concentrates and mineral supplements. The project includes development of both hardware and software, practical testing on multiple farms, and preparations for CE marking and commercialization. The result? A user-friendly tool that saves money, strengthens animal health, and reduces agriculture’s climate impact — an important step toward more precise and sustainable farming.\n\nWelcome to get to know us!",
+        "image":"images/team1.jpg"
+    },
+    "FadeHeader":{
+        "image1":"images/fadeheader1.jpg",
+        "image2":"images/fadeheader2.jpg",
+        "title0":"What are the benefits?",
+        "list":[
+            {
+                "st":"Greater nutrient precision: ",
+                "t":"Better control over the nutrient content of your feed mixes ensures that the animals receive exactly what they need, which can improve milk production, growth, and meat quality."
+            },
+            {
+                "st":"Cost Savings: ",
+                "t":"With precise analyses, the risk of overfeeding expensive concentrates and minerals is reduced, resulting in long-term savings."
+            },
+            {
+                "st":"Efficiency: ",
+                "t":"By integrating analysis directly on the farm, costly laboratory tests and waiting times are eliminated, making feed management more efficient."
+            },
+            {
+                "st":"Improved Animal Health: ",
+                "t":"Precision in nutrient content reduces the risk of nutrition-related diseases and improves animal well-being."
+            },
+            {
+                "st":"Seamless integration: ",
+                "t":"By connecting the analysis instrument with the software, the daily management of feed mixtures becomes easier, reducing the farmer’s administrative workload."
+            },
+            {
+                "st":"Forage Crop Control: ",
+                "t":"The analysis makes it possible to monitor the nutritional potential of the forage crop, supporting sustainable decisions on fertilization and crop management."
+            }
+
+        ],
+        
+        "text2":"Would you like to test the instrument and app? Do you have more questions? Contact us and we can arrange a demo — either on your farm or online!\n\nWe are currently working on a contact form. In the meantime, please reach out to us by email.",
+        "button2":"Contact us!",
+        "link2":"footer"
+    },
+    "PathPage":{
+        "image1":"images/path_page1.png",        
+        "text1":"text 1",
+        "text2":"text 2"
+    },
+    "Footer":{
+        "list":[
+            {
+                "title":""
+            },
+            {
+                "title":"alexander.back@njordfeed.com"
+            },
+            {
+                "title":""  
+            }
+        ],
+        "madeBy":""
+    },
+    "Product":{
+        "title0":"Why you should rent or buy an instrument from us?",
+        "subtitle0":"With the instrument, FeedLab, on site:",
+        "list0":[
+            "You don’t have to send samples away for analysis",
+            "You can run as many analyses as you want — for example every time you take new forage from your bunker or bale",
+            "You get results in 20 minutes instead of 2 weeks",
+            "You’re not working with outdated data",
+            "You can save thousands of SEK per year with optimized feed rations"
+        ],
+        "info0":"Research from SLU in Sweden and Cornell University in the U.S. shows that performing feed analyses weekly — instead of monthly or seasonally — can save a dairy farm with around 300 cows up to 250,000 SEK per year. With more frequent analyses, farmers gain better control over their feed and can adjust rations more quickly to avoid many nutrition-related pitfalls. For example, more regular testing can help reduce diseases such as milk fever by improving monitoring of the calcium-to-phosphorus ratio.",
+        "subinfo0":"",
+
+
+
+        "title1":"Why you should use our feed app?",
+        "subtitle1":"With the app, FeedMind, you will get:",
+        "list1":[
+    "A single place for all your feed analyses",
+    "Ability to upload results from other laboratories",
+    "Overview of nutrient values over time",
+    "Clear graphs and visualizations of your analyses",
+    "Less uncertainty and better decision support in daily work"
+],
+        "info1":"The app, FeedMind, gathers all your feed data in one place and makes it easy to track changes in quality and nutrient content over time. You gain a clear overview of how your feed develops, can compare different harvests and batches, and export data whenever you need it. This makes feed a less uncertain factor — giving you better control over your farm’s resources.",
+        
+        
+        "title2":"On-Farm Intelligence",
+"info2":"On-Farm Intelligence consists of both the instrument and the app — designed to work seamlessly together. It’s not the single analysis that makes the difference, but the sum of many. With On-Farm Intelligence, you gain more data points over time — revealing patterns and changes that would otherwise remain invisible. The instrument analyzes your feed directly on the farm, and the app collects and presents the results in a clear and intuitive way. By using both components, you get a complete solution that gives you control over feed quality, the ability to track changes over time, and stronger support for everyday decision-making.",
+
+        
+        "title3":"So how do you do it?",
+        "info3":"It’s simple! Take a sample you want to analyze, about 300 g. Place it in the instrument’s analysis chamber and press Start. If you know what type of feed you want to analyze, select it on the display and press Analyze. That’s all you need to do. In the background, an ID is created for your sample and stored in your personal database.\n\nTwenty minutes later, the analysis is complete and you receive the results directly in your profile — in the mobile app or on your computer via a web browser."
+    },
+    "Faq":{
+        "title0":"Frequently asked questions",        
+        "list0":[
+            {
+                "q":"Can I use the app even if I analyze my feed through other organizations or laboratories?",
+                "a":"Yes. Through our smart app, FeedMind, you can easily upload your analysis results and receive a full nutrient profile, along with trends compared to your previous samples."
+            },
+             {
+                "q":"How long does an analysis take?",
+                "a":"A complete analysis takes about 20 minutes from the moment you load the feed into the instrument."
+            },
+            {
+                "q":"Which types of feed can I analyze?",
+                "a":"The instrument works for all common forages such as silage, hay, and haylage. We are also developing support for additional feed types over time, such as mixed rations."
+            },
+            {
+                "q":"Do I need an internet connection?",
+                "a":"No, the analysis itself works without internet. However, to save your results in the cloud and view trends over time, the instrument or the app needs access to an internet connection."
+            },
+            {
+                "q":"How is my data stored?",
+                "a":"All analyses are securely stored in our cloud service. You will always have access to your own data through the app or web browser, and can easily export it when needed."
+            },
+            {
+                "q": "What sets NjordFeed’s solution apart from traditional laboratory analysis?",
+                "a": "You receive results directly on the farm within 20 minutes instead of waiting days or weeks. This makes it easier to act quickly when feed quality changes."
+
+            }
+        ]
+    },
+    "Price":{
+        "title0":"",
+        "info0":"A detailed comparison of time and resource use between today’s practices and NjordFeed’s process.",
+        "image":"/images/comparison.png", 
+        "advisorAccess": {
+            "title": "Use the app without your own instrument",
+            "intro": "You can use FeedMind even without owning an instrument. Connect your profile to an advisor or organization that has one — when the analysis is completed, the results are automatically sent to your profile/database.",
+            "steps": [
+                        { "icon": "Link", "text": "Create an account in the app or on the web." },
+                        { "icon": "QrCode2", "text": "Link your profile to the advisor’s instrument (QR code or email)." },
+                        { "icon": "Science", "text": "The advisor runs the analysis for you — you don’t need to be present." },
+                        { "icon": "CloudDone", "text": "The analysis data syncs automatically to your profile/database." },
+                        { "icon": "ReceiptLong", "text": "You receive the same interpretation and history as if you had your own instrument." }
+                ],
+    "ctaText": "Find an advisor",
+    "ctaLink": "/samarbete"
+                        }
+    },    
+    "LearnMore":{
+        "title0":"Learn More",        
+        "list0": [
+    {
+        "q": "3% of all dairy cows are affected by milk fever. Better control of the feed, especially calcium and phosphorus levels, minimizes the risk and helps you avoid the worst outcomes."
+    },
+    {
+        "q": "In a bunker silo, feed quality can vary by up to 30% from top to bottom, which can lead to overestimating the amount of concentrate (more expensive for the farm) or underestimating it (reduced production and poorer animal health)."
+    },
+    {
+        "q": "A cow eats an average of 50 kilos of feed per day — small differences in nutrient content can therefore have a major impact on both health and production."
+    },
+    {
+        "q": "Excess protein in the feed does not turn into milk — it simply costs money and increases environmental impact through higher nitrogen excretion."
+    },
+    {
+        "q": "The sugar and starch levels in the feed affect rumination, rumen pH, and therefore the cow’s overall digestive health."
+    },
+    {
+        "q": "A single poorly packed bunker silo can lead to mold that reduces feed intake and milk production — even small patches can have an impact."
+    },
+    {
+        "q": "With regular on-farm analyses, you can detect changes immediately instead of risking production losses that only become visible weeks later."
+    }
+]
+
+    },
+    "Samarbete": {
+        "title0": "Our collaboration partners",
+        "partners": [
+    {
+      "name": "Agroväst",
+        "logoUrl": "/images/partner/agrovast_logo_RGB_125_173_40.png",
+        "link": "https://www.agrovast.se"
+    },
+    {
+      "name": "Växa",
+      "logoUrl": "/images/partner/vaxa.png",
+        "link": "https://www.vxa.se/"
+    },
+    {
+      "name": "Hushållningssällskapet Västra",
+      "logoUrl": "/images/partner/hss.png",
+        "link": "https://hushallningssallskapet.se/hushallningssallskapet-vastra/"
+    },
+    {
+      "name": "Chalmers tekniska högskola",
+      "logoUrl": "/images/partner/Chalmers.jpg",
+        "link": "https://www.chalmers.se/"
+    },
+    {
+      "name": "SLU",
+      "logoUrl": "/images/partner/slu.png",
+        "link": "https://www.slu.se/"
+    }
+  ],
+        "description": "We collaborate with leading organizations in Sweden to ensure that our system is developed closely in line with real user needs and is grounded in scientific evidence.",
+        "farmers": [
+            {
+             "farm": "Svesgård AB",
+             "logoUrl": "/images/partner/svesgard.png",
+             "link": "https://svesgard.se/",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Stora Bränna",
+             "logoUrl": "/images/partner/stora.png",
+             "link": "https://www.storabranna.se/",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Ulvstorp Gård ",
+             "logoUrl": "/images/partner/ulvstorp.png",
+             "link": "https://www.facebook.com/ulvstorpgard/?locale=sv_SE",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Lida Gård",
+             "logoUrl": "/images/partner/lida.png",
+             "link": "https://www.facebook.com/p/Lida-G%C3%A5rd-61571413053631/",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Klöver Ess Agri",
+             "logoUrl": "/images/partner/torpa.png",
+             "link": "https://kloveressagri.se/",
+             "location": "Västra Götaland"
+            }
+        ]       
+    
+    },
+
+    "AboutUs": {
+        "title0": "About us",
+        "text": "Welcome to NjordFeed! We are a team of four driven individuals with strong engineering backgrounds and a shared passion for innovation. Our journey began when we realized that the current process for feed analysis on farms was not as efficient as it could be. With this insight as our driving force, we set out on a mission to transform today’s analysis practices. With a focus on streamlining processes and an eye for detail, we are committed to creating solutions that make a real difference. Together, we are shaping a future where feed analysis is more intuitive, efficient, and ultimately more meaningful.\n\n The team:\n Martin Stockhaus, CEO. Alexander Back, CTO. Alexander Branzell, back-end developer. Jens Hulteberg, front-end developer. Martin has experience running companies and understands many of the pitfalls that are easy to fall into — and how to avoid them. Alexander has direct experience working in laboratories with high-tech instruments and knows how to produce and present data to customers. Additional expertise that enables NjordFeed AB to carry out the project comes from IT and design developers Alexander and Jens. They will build an innovative and robust system for managing the data stored in our database.\n\n NjordFeed’s vision:\n Daily operations on a dairy farm are complex and demanding, with feed playing a crucial role in both animal health and farm profitability. Our vision is to make feed analysis simpler, faster, and more accessible — directly on the farm. Instead of sending small samples to external laboratories, we want farmers to be able to analyze their feed whenever they need to. With our instrument, you receive reliable, on-site results comparable to established laboratories, but without the waiting times. By giving farmers control over their own data, we aim to reduce uncertainty in decision-making and create a workday where feed management is both more efficient and more transparent.",
+        "members": [
+    {
+      "name": "Martin Stockhaus",
+      "role": "CEO / Founder",
+      "photo": "/images/about/tisse-for-web.jpg",
+      "bio": "PhD in Entrepreneurship. Extensive experience in company building and leadership."
+    },
+    {
+      "name": "Alexander Back",
+      "role": "CTO / Founder",
+      "photo": "/images/about/Alex-for-web.jpg",
+      "bio": "MSc in Biotechnology. Technical background and product lead at NjordFeed."
+    }
+  ]
+    },
+
+    "AktuellaProjekt": {
+  "title": "Current Projects",
+  "intro": "Read about our current projects here.",
+  "projects": [{
+      "title": "EIP-Agri: On-site feed analysis",
+      "image": "",
+      "description": "What we do\nIn this project, NjordFeed, together with Swedish partners, is developing an on-farm analysis instrument that enables fast, accurate, and automated feed analysis in real time. Instead of sending samples to external laboratories and waiting days or weeks, farmers can analyze their feed directly on the farm — with results in just a few minutes.\n\n Why it’s needed\nFeed nutrient content varies significantly, yet today’s analysis methods make it difficult to act on that variation. Decisions about feed rations are often based on outdated or incomplete data, leading to overfeeding, unnecessary costs, and an increased risk of nutrition-related diseases. Our solution gives farmers the ability to make well-informed decisions in real time — benefiting profitability, animal health, and the climate.\n\n What the project will deliver\n We are developing a prototype that combines NIR technology with additional wavelength analysis and connects the instrument to a cloud-based platform where users can visualize results, log events (such as silo changes), and track feed quality over time. The system will be tested and validated in practice on Swedish pilot farms.\n\n Project status\n The project started in spring 2025 and runs until the end of 2027. The goal is to reach TRL 8 — a finished product ready for the market — and pave the way for future industrialization and international scaling.",
+      "link": "https://ec.europa.eu/eip/agriculture/en/about.html",
+      "linklabel": "Read more on the official EU web"
+                }
+            ]
+    }
+
+    
+}

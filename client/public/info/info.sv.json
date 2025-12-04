@@ -1,0 +1,352 @@
+{
+    "Welcomepage": {
+        "Image":"/images/welcomepage1.webp",
+        "Video":"./images/welcomepage1.mp4",
+        "SubTitle":"",
+        "Title0":"Effektivisera ditt lantbruk med den senaste tekniken för foderanalys",                
+        "Button": "Skriv till oss!"
+     
+    },
+    "Navbar":{
+        "Navigation":[            
+            {
+                "title":"FAQ",
+                "link":"faq",
+                "type":"standard"
+            },
+            {
+                "title":"Produkt",
+                "link":"product",
+                "type":"standard"
+            },
+            {
+                "title":"Pris",
+                "link":"price",
+                "type":"standard"
+            },
+            {
+                "title":"Aktuella projekt",
+                "link":"aktuella-projekt",
+                "type":"standard"
+            },
+            {
+                "title":"Lär dig mer",
+                "link":"learnmore",
+                "type":"standard"
+            },
+            {
+                "title":"Våra samarbeten",
+                "link":"samarbete",
+                "type":"standard"
+            },
+             {
+                "title":"Om oss",
+                "link":"about",
+                "type":"standard"
+            },
+            {
+                "title":"Kontakta oss",
+                "link":"footer",
+                "type":"filled"
+            }
+            
+        ]
+    },
+    "ThreeInfo":{
+        "title": "Vad vi erbjuder",
+        "boxInfo":[
+            {
+                "title":"Unik analys av foder",
+                "subtitle":"Ett instrument som detekterar och kvantifierar både större näringsämnen och de mindre mineralerna för en komplett analys."
+            },
+            
+            {
+                "title":"Enklare vardag",
+                "subtitle":"Med ett smart instrument på din egna gård kan du utföra analyser dagligen utan extra steg."
+            },
+            {
+                "title":"Datainsikt över tid",
+                "subtitle":"Alla dina analyser sparas automatiskt i molnet. Följ förändringar i fodrets kvalitet under året och jämför skördar och partier för att fatta bättre beslut."
+            }
+        ]
+    },
+    "SimplePage1":{
+        "title":"Hur fungerar det?",
+        "info":"Med NjordFeeds systemlösning hjälper vi dig till en stressfri vardag, där du kan förlita dig snabba fodergivor. Med vårt högteknologiska analysinstrument direkt på gården, kan du göra analyser när du vill och få svar inom 20 minuter. Tillsammans med vår smarta AI-foderstat hjälper vi dig anpassa foderrecepten efter din gård och dina förutsättningar. \n\n Vi förstår att foderanalys kan vara överväldigande. Låt oss plocka bort osäkerheten och ge dig enkla, logiska analyssvar i ett användarvänligt format redan idag.",
+        "boxInfo":[
+            {
+                "title":"Analysinstrument",
+                "subtitle":"Instrumentet analyserar ditt foder på ca 20 min och producerar en komplett närings- och mineralprofil."
+            },
+            {
+                "title":"Databas i molnet",
+                "subtitle":"Analysresultatet skickas automatiskt till vår databas där näringsprofilen analyseras. Datan presenteras sedan på ett logiskt sätt i din profil, antingen via vår app eller webbläsare."
+            },
+            {
+                "title":"Agera",
+                "subtitle":"Tack vare den korta analystiden kan du agera direkt på variationer i foderkvaliteten. Jämför sedan enkelt provet med sparade analyser för att upptäcka variationer mellan fodergivor så väl som skördar."
+            }
+        ]
+        
+    },
+    "SimplePage2":{
+        "title":"Om NjordFeed",
+        "subtitle":"Vi är ett team av ingenjörer, entreprenörer och innovatörer som brinner för att modernisera jordbruket.\n\nMed rötter från Chalmers tekniska högskola och stark kompetens inom bioteknik, teknik, AI och UX-design har vi gått samman för att skapa lösningar som verkligen gör skillnad. NjordFeed bygger på insikten att foderanalys är en nyckel till hållbar lönsamhet och djurhälsa – men dagens metoder är för långsamma och otillgängliga.\n\nNjordFeed driver just nu ett treårigt innovationsprojekt inom EIP-Agri med målet att förändra hur svenska lantbrukare analyserar och optimerar sitt foder. Tillsammans med rådgivare och testgårdar utvecklar vi ett portabelt analysinstrument som gör det möjligt att snabbt och enkelt mäta närings- och mineralinnehåll i grovfoder – direkt på gården, utan att behöva skicka prover till laboratorium. Genom realtidsdata och en molnbaserad analysplattform får lantbrukaren bättre kontroll över variationer i fodret, kan justera foderstaten oftare och undvika onödiga kostnader för kraft- och mineralfoder. Projektet omfattar utveckling av både hårdvara och mjukvara, praktisk testning på flera gårdar och förberedelser för CE-märkning och kommersialisering. Resultatet? Ett användarvänligt verktyg som sparar pengar, stärker djurhälsan och minskar lantbrukets klimatpåverkan – ett viktigt steg mot mer precisionsinriktat och hållbart jordbruk.\n\nVälkommen att lära känna oss bättre!",
+        "image":"images/team1.jpg"
+    },
+    "FadeHeader":{
+        "image1":"images/fadeheader1.jpg",
+        "image2":"images/fadeheader2.jpg",
+        "title0":"Vilka är fördelarna?",
+        "list":[
+            {
+                "st":"Ökad näringsprecision: ",
+                "t":"Bättre kontroll över foderblandningarnas näringsinnehåll säkerställer att djuren får exakt de näringsämnen de behöver, vilket kan förbättra mjölkproduktion, tillväxt och köttkvalitet."
+            },
+            {
+                "st":"Kostnadsbesparingar: ",
+                "t":"Med exakta analyser minskas risken för överutfodring av dyra kraftfoder och mineraler, vilket ger långsiktiga besparingar."
+            },
+            {
+                "st":"Effektivitet: ",
+                "t":"Genom att integrera analysen direkt på gården tas dyrbara labbanalyser och väntetider bort, vilket effektiviserar foderhanteringen."
+            },
+            {
+                "st":"Bättre djurhälsa: ",
+                "t":"Precision i näringsinnehåll minskar risk för näringsrelaterade sjukdomar och förbättrar djurens välbefinnande."
+            },
+            {
+                "st":"Sömlös integration: ",
+                "t":"Genom att koppla ihop analysinstrumentet och mjukvaran underlättas den dagliga hanteringen av foderblandningar, vilket minskar lantbrukarens administrativa börda."
+            },
+            {
+                "st":"Kontroll över vallen: ",
+                "t":"Analysen gör det möjligt att övervaka vallens näringspotential, vilket stöder beslut om gödsling och växtvård på ett hållbart sätt."
+            }
+
+        ],
+        
+        "text2":"Vill du testa instrument och app? Har du fler frågor? Kontakta oss så kan vi ordna en demo hos dig eller online!\n\nVi jobbar på att få upp ett kontaktformulär. Så länge ber vi er kontakta oss via email.",
+        "button2":"Kontakta oss!",
+        "link2":"footer"
+    },
+    "PathPage":{
+        "image1":"images/path_page1.png",        
+        "text1":"text 1",
+        "text2":"text 2"
+    },
+    "Footer":{
+        "list":[
+            {
+                "title":""
+            },
+            {
+                "title":"alexander.back@njordfeed.com"
+            },
+            {
+                "title":""  
+            }
+        ],
+        "madeBy":""
+    },
+    "Product":{
+        "title0":"Varför ska du hyra eller köpa ett instrument av oss?",
+        "subtitle0":"Med instrument på gård:",
+        "list0":[
+            "Slipper du skicka iväg prover för analys",
+            "Kan du göra hur många analyser du vill, ex.vis varje gång du tar nytt grovfoder ur din plansilo eller bal",
+            "Får du analyssvar på 20 minuter istället för 2 veckor",
+            "Jobbar du inte med gammal data",
+            "Kan du spara tusentals SEK per år via optimala foderrecept"
+        ],
+        "info0":"Det är bevisat av SLU samt Cornell University i USA att göra analyser veckovis istället för på månadsbasis eller säsongsbasis besparar en gård med ~300 mjölkkor upp till 250 000 SEK per år. Med fler analyser får ett lantbruk bättre koll på sitt foder och kan enklare samt snabbare justera fodergivan för att undvika många fallgropar som är relaterade till utfodring. Ex.vis kan mer frekventa analyser leda till minskade sjukdomar på gården, såsom kalvförlamning, genom bättre uppsyn på kalcium- och fosfor-ration.",
+        "subinfo0":"",
+
+
+
+        "title1":"Varför ska du använda vår foderapp?",
+        "subtitle1":"Med appen får du:",
+        "list1":[
+    "Samlad plats för alla dina foderanalyser",
+    "Möjlighet att lägga in dina resultat även från andra labb",
+    "Överblick över fodrets näringsvärden över tid",
+    "Tydliga grafer och visualiseringar av analyserna",
+    "Mindre osäkerhet och bättre beslutsunderlag i vardagen"
+],
+        "info1":"Appen samlar alla dina foderdatan på ett ställe och gör det enkelt att följa förändringar i kvalitet och näringsinnehåll över tid. Du får en tydlig bild av hur fodret utvecklas, kan jämföra olika skördar och partier samt exportera data när du behöver det. På så sätt blir fodret mindre av en osäker faktor – och du får bättre kontroll över gårdens resurser.",
+        
+        
+        "title2":"Systemlösningen",
+"info2":"Systemlösningen består av både instrumentet och appen – byggda för att fungera tillsammans. Det är inte den enskilda analysen som gör skillnaden, utan summan av många analyser. Med Systemlösningen får du fler punkter på kurvan – vilket avslöjar mönster och förändringar som annars hade varit osynliga. Instrumentet analyserar fodret direkt på gården och appen samlar och presenterar resultaten på ett enkelt och överskådligt sätt. När du använder båda delarna får du en komplett lösning som ger kontroll över fodrets kvalitet, möjlighet att följa förändringar över tid och bättre underlag för dina beslut i vardagen.",
+
+        
+        "title3":"Hur gör man då?",
+        "info3":"Enkelt! Ta ut ett prov som du vill analysera, ca 300g. Lägg in det i instrumentets analyscenter och tryck på Start! Om du vet vad du vill analysera, välj då detta typ av foder på displayen och tryck på Analysera. Du behöver inte tänka på något mer. I bakgrunden skapas ett ID för ditt prov som lagras i din personliga databas. \n\n 20 minuter senare är analysen klar och du får ett svar direkt till din profil; i telefon-app eller till dator via webbläsare."
+    },
+    "Faq":{
+        "title0":"Vanliga frågor",        
+        "list0":[
+            {
+                "q":"Kan jag använda appen även om jag analyserar mitt foder via andra organisationer/labb?",
+                "a":"Ja, via vår smarta app laddar du enkelt upp analyssvaren och får ut näringsprofilen där trender jämfört med äldre prover syns."
+            },
+             {
+                "q":"Hur lång tid tar en analys?",
+                "a":"En komplett analys tar ungefär 20 minuter från att du laddat in fodret i instrumentet."
+            },
+            {
+                "q":"Vilka fodertyper kan jag analysera?",
+                "a":"Instrumentet fungerar för alla vanliga grovfoder som ensilage, hö och hösilage. Vi utvecklar även stöd för fler fodertyper över tid, såsom färdigmixat foder."
+            },
+            {
+                "q":"Måste jag vara uppkopplad till internet?",
+                "a":"Nej, själva analysen fungerar utan internet. Men för att spara dina resultat i molnet och se trender över tid behöver instrumentet eller appen ha tillgång till nätuppkoppling."
+            },
+            {
+                "q":"Hur lagras mina data?",
+                "a":"Alla analyser lagras säkert i vår molntjänst. Du har alltid tillgång till dina egna data via appen eller webbläsaren, och kan enkelt exportera dem vid behov."
+            },
+            {
+                "q":"Vad skiljer NjordFeeds lösning från traditionell laboratorieanalys?",
+                "a":"Du får svar direkt på gården inom 20 minuter istället för att vänta dagar eller veckor. Det gör det enklare att agera snabbt när fodrets kvalitet förändras."
+            }
+        ]
+    },
+    "Price":{
+        "title0":"",
+        "info0":"En detaljerad jämförelse i tid och resursanvändning mellan dagens praxis och NjordFeeds process.",
+        "image":"/images/comparison.png", 
+        "advisorAccess": {
+            "title": "Använd appen utan eget instrument",
+            "intro": "Du kan använda NjordFeed-appen även utan att äga ett instrument. Koppla din profil till en rådgivare eller organisation som har instrumentet – när analysen är klar skickas resultatet automatiskt till din profil/databas.",
+            "steps": [
+                        { "icon": "Link", "text": "Skapa ett konto i appen/webben." },
+                        { "icon": "QrCode2", "text": "Koppla din profil till rådgivarens instrument (QR-kod eller e-post)." },
+                        { "icon": "Science", "text": "Rådgivaren kör analysen åt dig – du behöver inte vara på plats." },
+                        { "icon": "CloudDone", "text": "Analysdatan synkas automatiskt till din profil/databas." },
+                        { "icon": "ReceiptLong", "text": "Du får samma tolkning och historik som med eget instrument." }
+                ],
+    "ctaText": "Hitta rådgivare",
+    "ctaLink": "/samarbete"
+                        }
+    },    
+    "LearnMore":{
+        "title0":"Lär dig mer",        
+        "list0":[
+            {
+                "q":"3% av alla mjölkkor drabbas av kalvförlamning. Bättre koll på fodret, framförallt kalcium- och fosforhalten minimerar risken att kon drabbas och du slipper göra det värsta."
+                
+            },
+            {"q":"I en plansilo kan foderkvaliteten variera upp till 30% från toppskikt till bottenskikt, vilket kan innebära att du överestimerar andelen kraftfoder (dyrare för verksamheten) eller underestimerar andelen kraftfoder (sämre produktion och djuren mår sämre)." 
+        },
+        {"q":"En ko äter i genomsnitt 50 kilo foder per dag – små skillnader i näringsinnehåll kan därför få stor effekt på både hälsa och produktion." 
+        },
+        {"q":"Proteinöverskott i fodret går inte till mjölk – det kostar bara pengar och belastar miljön via ökad kväveutsöndring." 
+        },
+        {"q":"Fodrets socker- och stärkelsehalt påverkar idissling, pH i våmmen och därmed hela kons maghälsa." 
+        },
+        {"q":"En enda dåligt packad plansilo kan ge upphov till mögel som sänker foderintaget och mjölkproduktionen – även små partier påverkar." 
+        },
+        {"q":"Med regelbundna gårdsanalyser kan du upptäcka förändringar direkt, istället för att riskera produktionsfall som syns först veckor senare." 
+        }
+        ]
+    },
+    "Samarbete": {
+        "title0": "Våra samarbetspartners",
+        "partners": [
+    {
+      "name": "Agroväst",
+        "logoUrl": "/images/partner/agrovast_logo_RGB_125_173_40.png",
+        "link": "https://www.agrovast.se"
+    },
+    {
+      "name": "Växa",
+      "logoUrl": "/images/partner/vaxa.png",
+        "link": "https://www.vxa.se/"
+    },
+    {
+      "name": "Hushållningssällskapet Västra",
+      "logoUrl": "/images/partner/hss.png",
+        "link": "https://hushallningssallskapet.se/hushallningssallskapet-vastra/"
+    },
+    {
+      "name": "Chalmers tekniska högskola",
+      "logoUrl": "/images/partner/Chalmers.jpg",
+        "link": "https://www.chalmers.se/"
+    },
+    {
+      "name": "SLU",
+      "logoUrl": "/images/partner/slu.png",
+        "link": "https://www.slu.se/"
+    }
+  ],
+        "description": "Vi samarbetar med ledande aktörer i Sverige för att säkerställa att vårt system utvecklas nära användarnas verkliga behov och är vetenskapligt förankrat.",
+        "farmers": [
+            {
+             "farm": "Svesgård AB",
+             "logoUrl": "/images/partner/svesgard.png",
+             "link": "https://svesgard.se/",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Stora Bränna",
+             "logoUrl": "/images/partner/stora.png",
+             "link": "https://www.storabranna.se/",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Ulvstorp Gård ",
+             "logoUrl": "/images/partner/ulvstorp.png",
+             "link": "https://www.facebook.com/ulvstorpgard/?locale=sv_SE",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Lida Gård",
+             "logoUrl": "/images/partner/lida.png",
+             "link": "https://www.facebook.com/p/Lida-G%C3%A5rd-61571413053631/",
+             "location": "Västra Götaland"
+            },
+            {
+             "farm": "Klöver Ess Agri",
+             "logoUrl": "/images/partner/torpa.png",
+             "link": "https://kloveressagri.se/",
+             "location": "Västra Götaland"
+            }
+        ]       
+    
+    },
+
+    "AboutUs": {
+        "title0": "Om oss",
+        "text": "Välkommen till NjordFeed! Vi är ett team på fyra drivna personer med stark ingenjörsbakgrund och en gemensam passion för innovation. Vår resa började när vi insåg att den nuvarande processen för foderanalys på lantbruk inte var så effektiv som den kunde vara. Med denna insikt som drivkraft gav vi oss ut på ett uppdrag att förändra dagens analyspraxis. Med fokus på att effektivisera processer och ett öga för detaljer är vi engagerade i att skapa lösningar som gör verklig skillnad. Tillsammans formar vi en framtid där analys av foder är mer intuitiv, smidig och i slutändan mer betydelsefull. \n\n The team:\n Martin Stockhaus, VD. Alexander Back, CTO. Alexander Branzell, back-end-developer. Jens Hulteberg, front-end-developer. Martin har tidigare erfarenheter att driva företag och känner till många av de fallgropar som är enkla att hamna i, och vet hur man undviker dem. Alexander har direkt erfarenhet av att jobba på labb med högteknologiska instrument och kan producera samt presentera data till kunder. Ytterligare kompetenser inom som möjliggör att NjordFeed AB kan genomföra projektet kommer från IT- och designutvecklarna Alexander och Jens. De kommer bygga ett innovativt och stabilt system för att hantera den data som kommer lagras i vår databas. \n\n NjordFeeds vision:\n Den dagliga verksamheten på ett lantbruk med kor är komplex och krävande, där foder spelar en avgörande roll för både djurens hälsa och gårdens ekonomi. Vår vision är att göra foderanalysen enklare, snabbare och mer tillgänglig – direkt på gården. I stället för att skicka iväg små prov till externa laboratorier vill vi att lantbrukare själva ska kunna analysera sitt foder när som helst. Med vårt instrument får du pålitliga resultat på plats, jämförbara med etablerade laboratorier, men utan väntetider. Genom att ge lantbrukaren kontroll över sin egen data vill vi minska osäkerheten i besluten och skapa en vardag där foderhanteringen är både mer effektiv och mer transparent.",
+        "members": [
+    {
+      "name": "Martin Stockhaus",
+      "role": "VD / Grundare",
+      "photo": "/images/about/tisse-for-web.jpg",
+      "bio": "PhD i entreprenörskap. Lång erfarenhet av bolagsbyggande och ledarskap."
+    },
+    {
+      "name": "Alexander Back",
+      "role": "CTO / Grundare",
+      "photo": "/images/about/Alex-for-web.jpg",
+      "bio": "MSc i Bioteknik. Teknisk bakgrund och produktansvar i NjordFeed."
+    }
+  ]
+    },
+
+    "AktuellaProjekt": {
+  "title": "Aktuella projekt",
+  "intro": "Här kan du läsa om våra pågående projekt just nu.",
+  "projects": [{
+      "title": "EIP-Agri: Gårdsbaserad foderanalys",
+      "image": "",
+      "description": "Vad vi gör\n I det här projektet utvecklar NjordFeed tillsammans med svenska samarbetspartners ett gårdsbaserat analysinstrument som möjliggör snabb, exakt och automatiserad foderanalys i realtid. Istället för att skicka prover till externa laboratorier och vänta i dagar eller veckor, kan lantbrukare analysera sitt foder direkt på gården – med resultat på några minuter.\n\nVarför det behövs\n Fodrets näringsinnehåll varierar kraftigt, men dagens analysmetoder gör det svårt att agera på den variationen. Ofta sker beslut om foderstaten baserat på föråldrad eller bristfällig data, vilket leder till överutfodring, onödiga kostnader och risk för näringsrelaterade sjukdomar. Vår lösning ger lantbrukare möjlighet att fatta välgrundade beslut i realtid – vilket gynnar både ekonomi, djurhälsa och klimatet.\n\nVad projektet ska leverera\n Vi utvecklar en prototyp som kombinerar NIR-teknik med ytterligare våglängdsanalys och kopplar instrumentet till en molnbaserad plattform där användaren kan visualisera resultat, logga händelser (som silo-byten) och följa foderkvalitet över tid. Systemet testas och valideras i praktiken på svenska pilotgårdar.\n\nProjektstatus\n Projektet startade våren 2025 och pågår till slutet av 2027. Målet är att nå TRL 8 – en färdig produkt redo för marknaden – och bana väg för framtida industrialisering och internationell skalning.",
+      "link": "https://ec.europa.eu/eip/agriculture/en/about.html",
+      "linklabel": "Läs mer på EUs webbsida"
+                }
+            ]
+    }
+
+    
+}

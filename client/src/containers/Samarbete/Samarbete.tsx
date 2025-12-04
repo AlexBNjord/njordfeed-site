@@ -115,7 +115,7 @@ const Samarbete = ({ info }: Iprops) => {
         {!!farms.length && (
           <>
             <Typography variant="h3" sx={{ textAlign: 'center', color: 'text.primary', mt: 2 }}>
-              Våra testgårdar
+              
             </Typography>
 
             <Grid container spacing={3} justifyContent="center" alignItems="flex-start">
