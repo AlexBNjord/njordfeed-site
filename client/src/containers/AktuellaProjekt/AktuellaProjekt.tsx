@@ -1,6 +1,8 @@
 import { Box, Typography, Button, useMediaQuery } from '@mui/material'
 import { useTheme, alpha } from '@mui/material/styles'
 import { Iinfo } from '../../types/interface'
+import Link from '@mui/material/Link'
+
 
 
 interface Iprops {
@@ -80,25 +82,46 @@ const AktuellaProjekt = ({ info }: Iprops) => {
           )}
 
           <Box sx={{ flex: 1 }}>
-            <Typography variant="h3" sx={{ textAlign: 'left', mb: 1 }}>
-              {proj.title}
-            </Typography>
-            <Typography variant="subtitle1" sx={{ textAlign: 'left', mb: 2 }}>
-              {proj.description}
-            </Typography>
-            {proj.link && (
-              <Button
-                variant="contained"
-                color="primary" // knapparna behåller sin nuvarande färg
-                href={proj.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{ width: mobile ? '100%' : 'auto' }}
-              >
-                {proj.linklabel || 'Läs mer'}
-              </Button>
-            )}
-          </Box>
+  <Typography variant="h3" sx={{ textAlign: 'left', mb: 1 }}>
+    {proj.title}
+  </Typography>
+
+  <Typography variant="subtitle1" sx={{ textAlign: 'left', mb: 2, whiteSpace: 'pre-line' }}>
+    {/* Fallback: om du inte hunnit lägga in nya fält i JSON ännu */}
+    {proj.descriptionBefore ??  ''}
+
+    {/* Klickbar Agroväst-länk (om den finns) */}
+    {proj.link1?.href && proj.link1?.text ? (
+      <Link
+        href={proj.link1.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        underline="always"
+        sx={{ color: 'secondary.main', fontWeight: 600 }}
+      >
+        {proj.link1.text}
+      </Link>
+    ) : null}
+
+    {/* Eftertext */}
+    {proj.descriptionAfter ?? ''}
+  </Typography>
+
+  {/* Den vanliga "Läs mer"-knappen (separat från Agroväst-länken) */}
+  {proj.link && (
+    <Button
+      variant="contained"
+      color="primary"
+      href={proj.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{ width: mobile ? '100%' : 'auto' }}
+    >
+      {proj.linklabel || 'Läs mer'}
+    </Button>
+  )}
+</Box>
+
         </Box>
       ))}
     </Box>

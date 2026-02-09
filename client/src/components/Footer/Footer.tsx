@@ -21,6 +21,8 @@ const Footer = ({ info }: Iprops) => {
    * Ändra dessa värden för att styra storleken i footern:
    */
   const BRAND_HEIGHT = { xs: 48, md: 56 }            // loggans höjd
+  const EU_LOGO_HEIGHT = { xs: 100, md: 150 }  // justera efter smak
+
   const CONTACT_FONT = { xs: '0.95rem', md: '1.2rem' } // kontakt-text
   const SOCIAL_SIZE = { xs: 24, md: 28 }             // sociala ikonernas storlek
   /** ================================================ */
@@ -88,7 +90,31 @@ const Footer = ({ info }: Iprops) => {
             <Box sx={{ height: BRAND_HEIGHT, '& svg': { height: '100%', width: 'auto' } }}>
               <TextLogo fill="#ffffff" />
             </Box>
-            
+          {/* EU-logga */}
+  {info?.Footer?.euLogo?.src && (
+    <Box
+      component={info.Footer.euLogo.href ? 'a' : 'div'}
+      href={info.Footer.euLogo.href}
+      target={info.Footer.euLogo.href ? '_blank' : undefined}
+      rel={info.Footer.euLogo.href ? 'noopener noreferrer' : undefined}
+      sx={{
+        display: 'flex',
+        alignItems: 'center',
+        textDecoration: 'none',
+      }}
+    >
+      <Box
+        component="img"
+        src={info.Footer.euLogo.src}
+        alt={info.Footer.euLogo.alt || 'EU-logo'}
+        sx={{
+          height: EU_LOGO_HEIGHT,
+          width: 'auto',
+          objectFit: 'contain',
+        }}
+      />
+    </Box>
+  )} 
             
             <Typography
               variant="subtitle1"

@@ -40,9 +40,16 @@ interface Iinfo  {
         }[]
         
 
-    },"SimplePage2":{
-        [key:string]:string        
-    }, 
+    },"SimplePage2": {
+  title: string
+  subtitleBefore: string
+  subtitleAfter: string
+  link: {
+    text: string
+    href: string
+  }
+  image?: string
+}, 
     "FadeHeader" : {
         image1:string
         image2:string
@@ -137,11 +144,16 @@ interface Iinfo  {
   title: string
   intro: string
   projects: {
-    title: string
-    description: string
-    image?: string
-    link?: string
-    linklabel?: string
+  title: string
+  image?: string
+  descriptionBefore: string
+  descriptionAfter: string
+  link1: {
+    text: string
+    href: string
+  }
+  linklabel?: string
+  link?: string
   }[]
 },
 
@@ -163,16 +175,22 @@ interface Iinfo  {
     "CompanyInfo":{
         [key:string]:string
     },
-    "Footer":{
-        list: {
-            title:string
-            subtitle:string
-        }[],
-        links: {            
-            link:string
-        }[],
-        madeBy:string
-    },
+    "Footer": {
+  list: {
+    title: string
+    subtitle?: string
+  }[],
+  links?: {
+    link: string
+  }[],
+  madeBy: string,
+  euLogo?: {
+    src: string
+    alt?: string
+    href?: string
+  }
+},
+
     "Policy":{
         [key:string]:string
     }

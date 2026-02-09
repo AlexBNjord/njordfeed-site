@@ -89,11 +89,16 @@
         ]
         
     },
-    "SimplePage2":{
-        "title":"Om NjordFeed",
-        "subtitle":"Vi är ett team av ingenjörer, entreprenörer och innovatörer som brinner för att modernisera jordbruket.\n\nMed rötter från Chalmers tekniska högskola och stark kompetens inom bioteknik, teknik, AI och UX-design har vi gått samman för att skapa lösningar som verkligen gör skillnad. NjordFeed bygger på insikten att foderanalys är en nyckel till hållbar lönsamhet och djurhälsa – men dagens metoder är för långsamma och otillgängliga.\n\nNjordFeed driver just nu ett treårigt innovationsprojekt inom EIP-Agri med målet att förändra hur svenska lantbrukare analyserar och optimerar sitt foder. Tillsammans med rådgivare och testgårdar utvecklar vi ett portabelt analysinstrument som gör det möjligt att snabbt och enkelt mäta närings- och mineralinnehåll i grovfoder – direkt på gården, utan att behöva skicka prover till laboratorium. Genom realtidsdata och en molnbaserad analysplattform får lantbrukaren bättre kontroll över variationer i fodret, kan justera foderstaten oftare och undvika onödiga kostnader för kraft- och mineralfoder. Projektet omfattar utveckling av både hårdvara och mjukvara, praktisk testning på flera gårdar och förberedelser för CE-märkning och kommersialisering. Resultatet? Ett användarvänligt verktyg som sparar pengar, stärker djurhälsan och minskar lantbrukets klimatpåverkan – ett viktigt steg mot mer precisionsinriktat och hållbart jordbruk.\n\nVälkommen att lära känna oss bättre!",
-        "image":"images/team1.jpg"
-    },
+    "SimplePage2": {
+  "title": "Om NjordFeed",
+  "subtitleBefore": "Vi är ett team av ingenjörer, entreprenörer och innovatörer som brinner för att modernisera jordbruket.\n\nMed rötter från Chalmers tekniska högskola och stark kompetens inom bioteknik, teknik, AI och UX-design har vi gått samman för att skapa lösningar som verkligen gör skillnad. NjordFeed bygger på insikten att foderanalys är en nyckel till hållbar lönsamhet och djurhälsa – men dagens metoder är för långsamma och otillgängliga.\n\nNjordFeed driver just nu ett treårigt innovationsprojekt inom EIP-Agri med målet att förändra hur svenska lantbrukare analyserar och optimerar sitt foder. Projektet genomförs inom innovationsstödet EIP-Agri och medfinansieras av Europeiska unionen genom Europeiska jordbruksfonden för landsbygdsutveckling EJFLU (Sveriges strategiska plan för CAP 2023–2027). Stödet söks och handläggs av Jordbruksverket. Tillsammans med projektägare ",
+  "link": {
+    "text": "Agroväst",
+    "href": "https://www.agrovast.se/"
+  },
+  "subtitleAfter": ", rådgivare och testgårdar utvecklar vi ett portabelt analysinstrument som gör det möjligt att snabbt och enkelt mäta närings- och mineralinnehåll i grovfoder – direkt på gården, utan att behöva skicka prover till laboratorium. Genom realtidsdata och en molnbaserad analysplattform får lantbrukaren bättre kontroll över variationer i fodret, kan justera foderstaten oftare och undvika onödiga kostnader för kraft- och mineralfoder. Projektet omfattar utveckling av både hårdvara och mjukvara, praktisk testning på flera gårdar och förberedelser för CE-märkning och kommersialisering. Resultatet? Ett användarvänligt verktyg som sparar pengar, stärker djurhälsan och minskar lantbrukets klimatpåverkan – ett viktigt steg mot mer precisionsinriktat och hållbart jordbruk.\n\nVälkommen att lära känna oss bättre!",
+  "image": "images/team1.jpg"
+},
     "FadeHeader":{
         "image1":"images/fadeheader1.jpg",
         "image2":"images/fadeheader2.jpg",
@@ -146,8 +151,14 @@
             {
                 "title":""  
             }
+            
         ],
-        "madeBy":""
+        "madeBy":"",
+        "euLogo": {
+    "src": "/images/Eu_log_sv.jpg",
+    "alt": "Medfinansieras av Europeiska unionen",
+    "href": "https://europa.eu/"
+  }
     },
     "Product":{
         "title0":"Varför ska du hyra eller köpa ett instrument av oss?",
@@ -338,15 +349,21 @@
     "AktuellaProjekt": {
   "title": "Aktuella projekt",
   "intro": "Här kan du läsa om våra pågående projekt just nu.",
-  "projects": [{
+  "projects": [
+    {
       "title": "EIP-Agri: Gårdsbaserad foderanalys",
       "image": "",
-      "description": "Vad vi gör\n I det här projektet utvecklar NjordFeed tillsammans med svenska samarbetspartners ett gårdsbaserat analysinstrument som möjliggör snabb, exakt och automatiserad foderanalys i realtid. Istället för att skicka prover till externa laboratorier och vänta i dagar eller veckor, kan lantbrukare analysera sitt foder direkt på gården – med resultat på några minuter.\n\nVarför det behövs\n Fodrets näringsinnehåll varierar kraftigt, men dagens analysmetoder gör det svårt att agera på den variationen. Ofta sker beslut om foderstaten baserat på föråldrad eller bristfällig data, vilket leder till överutfodring, onödiga kostnader och risk för näringsrelaterade sjukdomar. Vår lösning ger lantbrukare möjlighet att fatta välgrundade beslut i realtid – vilket gynnar både ekonomi, djurhälsa och klimatet.\n\nVad projektet ska leverera\n Vi utvecklar en prototyp som kombinerar NIR-teknik med ytterligare våglängdsanalys och kopplar instrumentet till en molnbaserad plattform där användaren kan visualisera resultat, logga händelser (som silo-byten) och följa foderkvalitet över tid. Systemet testas och valideras i praktiken på svenska pilotgårdar.\n\nProjektstatus\n Projektet startade våren 2025 och pågår till slutet av 2027. Målet är att nå TRL 8 – en färdig produkt redo för marknaden – och bana väg för framtida industrialisering och internationell skalning.",
-      "link": "https://ec.europa.eu/eip/agriculture/en/about.html",
-      "linklabel": "Läs mer på EUs webbsida"
-                }
-            ]
+      "descriptionBefore": "Vad vi gör\n Med ",
+      "link1": {
+        "text": "Agroväst",
+        "href": "https://www.agrovast.se/"
+      },
+      "descriptionAfter": " i spetsen som projektägare, utvecklar NjordFeed tillsammans med svenska samarbetspartners ett gårdsbaserat analysinstrument som möjliggör snabb, exakt och automatiserad foderanalys i realtid. Istället för att skicka prover till externa laboratorier och vänta i dagar eller veckor, kan lantbrukare analysera sitt foder direkt på gården – med resultat på några minuter. Projektet genomförs inom innovationsstödet EIP-AGRI och medfinansieras av Europeiska unionen genom Europeiska jordbruksfonden för landsbygdsutveckling, inom ramen för Sveriges strategiska plan för den gemensamma jordbrukspolitiken 2023–2027. Stödet handläggs av Jordbruksverket.\n\nVarför det behövs\n Fodrets näringsinnehåll varierar kraftigt, men dagens analysmetoder gör det svårt att agera på den variationen. Ofta sker beslut om foderstaten baserat på föråldrad eller bristfällig data, vilket leder till överutfodring, onödiga kostnader och risk för näringsrelaterade sjukdomar. Vår lösning ger lantbrukare möjlighet att fatta välgrundade beslut i realtid – vilket gynnar både ekonomi, djurhälsa och klimatet.\n\nVad projektet ska leverera\n Vi utvecklar en prototyp som kombinerar NIR-teknik med ytterligare våglängdsanalys och kopplar instrumentet till en molnbaserad plattform där användaren kan visualisera resultat, logga händelser (som silo-byten) och följa foderkvalitet över tid. Systemet testas och valideras i praktiken på svenska pilotgårdar.\n\nProjektstatus\n Projektet startade våren 2025 och pågår till slutet av 2027. Målet är att nå TRL 8 – en färdig produkt redo för marknaden – och bana väg för framtida industrialisering och internationell skalning.",
+      "linklabel": "Läs mer på EUs webbsida",
+      "link": "https://ec.europa.eu/eip/agriculture/en/about.html"
     }
+  ]
+}
 
     
 }

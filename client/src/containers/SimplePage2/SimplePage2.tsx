@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import Typography from '@mui/material/Typography'
+import Link from '@mui/material/Link'
 
 import { Iinfo } from '../../types/interface'
 import { theme } from '../../App'
@@ -66,9 +67,19 @@ const SimplePage2 = (props: Iprops) => {
             flex: { xs: '1 1 100%', md: '0 0 48%' },
           }}
         >
-          <Typography variant="subtitle1" color="primary.contrastText" sx={{ textAlign: 'left' }}>
-            {info?.SimplePage2?.subtitle}
-          </Typography>
+          <Typography variant="subtitle1" color="primary.contrastText" sx={{ textAlign: 'left', whiteSpace: 'pre-line' }}>
+  {info?.SimplePage2?.subtitleBefore}
+  <Link
+    href={info?.SimplePage2?.link?.href}
+    target="_blank"
+    rel="noopener noreferrer"
+    underline="hover"
+    sx={{ color: theme.palette.secondary.main, fontWeight: 600 }}
+  >
+    {info?.SimplePage2?.link?.text}
+  </Link>
+  {info?.SimplePage2?.subtitleAfter}
+</Typography>
         </Box>
       </Box>
     </Box>

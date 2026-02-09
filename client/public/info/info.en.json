@@ -146,8 +146,14 @@
             {
                 "title":""  
             }
+            
         ],
-        "madeBy":""
+        "madeBy":"",
+        "euLogo": {
+    "src": "/images/Eu_log_en.jpg",
+    "alt": "Cofunded by the European Union",
+    "href": "https://europa.eu/"
+  }
     },
     "Product":{
         "title0":"Why you should rent or buy an instrument from us?",
